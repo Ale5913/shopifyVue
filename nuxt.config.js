@@ -2,6 +2,7 @@ require('isomorphic-fetch');
 import webpack from 'webpack';
 
 export default {
+   target: 'server',
   server: {
     port: 3001,
     host: '0.0.0.0'
